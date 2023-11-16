@@ -4,12 +4,12 @@ resource "null_resource" "test" {
   }
 }
 
-resource "null_resource" "test1" {
-  provisioner "local-exec" {
-    command = <<EOF
-My name is Tanvi Ghai.
-I am the strongest in the world.
-I am here to win and succeeed.
-EOF
-  }
-}
+#resource "null_resource" "test1" {
+#  provisioner "local-exec" {
+#    command = <<EOF
+#My name is Tanvi Ghai.
+#I am the strongest in the world.
+#I am here to win and succeeed.
+#EOF
+#  }
+#}
